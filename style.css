@@ -68,7 +68,7 @@ h2 {
     align-items: flex-start;
 }*/
 
-#apps {
+.apps {
     display: flex;
     justify-content: center;
     padding: 10rem;
@@ -80,47 +80,29 @@ h2 {
     overflow: hidden;
 }
 
-#calculadora{
-    background-color: black;
+.boton {
     border-radius: 15%;
     width: 50px;
     height: 50px;
     margin-right: 3%;
     border: none;
+}
+#calculadora{
+    background-color: black;
 }
 
 #reloj{
     background-color: rgb(41, 40, 40);
-    border-radius: 15%;
-    width: 50px;
-    height: 50px;
-    margin-right: 3%;
-    border: none;
 }
 
 #calendario{
     background-color: rgb(228, 91, 12);
-    border-radius: 15%;
-    width: 50px;
-    height: 50px;
-    margin-right: 3%;
-    border: none;
 }
 
 #telefono{
     background-color: rgb(28, 102, 6);
-    border-radius: 15%;
-    width: 50px;
-    height: 50px;
-    margin-right: 3%;
-    border: none;
 }
 
 #mensajes{
     background-color: rgb(32, 82, 156);
-    border-radius: 15%;
-    width: 50px;
-    height: 50px;
-    margin-right: 3%;
-    border: none;
 }
