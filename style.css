@@ -1,0 +1,126 @@
+html {
+    height: 100%;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#container {
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+    /*background-image: url(fondo_1.jpg);*/
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: white;
+    width: 90vw;
+    overflow: hidden;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: white;
+    width: 90vw;
+    overflow: hidden;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:sans-serif;
+
+}
+/*
+#calculadora{
+    background-color: white;
+    display: flex-end;
+    justify-content: flex-end;
+    position: absolute;
+    transform: translate(-98%, -35%);
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    align-items: flex-start;
+}*/
+
+#apps {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    width: 50vw;
+    overflow: hidden;
+}
+
+#calculadora{
+    background-color: black;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    border: none;
+}
+
+#reloj{
+    background-color: rgb(41, 40, 40);
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    border: none;
+}
+
+#calendario{
+    background-color: rgb(228, 91, 12);
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    border: none;
+}
+
+#telefono{
+    background-color: rgb(28, 102, 6);
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    border: none;
+}
+
+#mensajes{
+    background-color: rgb(32, 82, 156);
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    border: none;
+}
