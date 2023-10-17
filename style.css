@@ -55,18 +55,6 @@ h2 {
     font-family:sans-serif;
 
 }
-/*
-#calculadora{
-    background-color: white;
-    display: flex-end;
-    justify-content: flex-end;
-    position: absolute;
-    transform: translate(-98%, -35%);
-    text-align: center;
-    height: 20%;
-    width: 100%;
-    align-items: flex-start;
-}*/
 
 .apps {
     display: flex;

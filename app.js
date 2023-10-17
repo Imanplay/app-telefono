@@ -1,17 +1,3 @@
-
-/*let date= document.getElementById("hora");
-
-getTime();
-
-function getTime() {
-    const fecha = new Date();
-    let time= fecha.toLocaleTimeString()
-    date.innerText= "" + time;
-}
-
-setInterval(() => getTime())
-*/
-
 let hour = document.getElementById("hora");
 
 getTime();
