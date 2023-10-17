@@ -22,3 +22,14 @@ function getDate() {
 
 setInterval(getDate());
 
+/*
+function cambiarDiv() {
+    let div1 = document.getElementById("container");
+    let div2 = document.getElementsByClassName("apps");
+    
+    div1.style.display = "none"; // Oculta el div actual
+    div2.innerHTML = ""; // Vacía el contenido del div2
+    
+    div2.style.display = "block"; // Muestra el div2 vacío
+  }
+*/

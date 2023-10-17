@@ -75,6 +75,11 @@ h2 {
     margin-right: 3%;
     border: none;
 }
+
+.material-icons{
+    font-size: 35px;
+}
+
 #calculadora{
     background-color: black;
 }
@@ -94,3 +99,4 @@ h2 {
 #mensajes{
     background-color: rgb(32, 82, 156);
 }
+
