@@ -33,3 +33,7 @@ function cambiarDiv() {
     div2.style.display = "block"; // Muestra el div2 vacío
   }
 */
+function abrirApp(link){
+window.open(link);
+}
+
